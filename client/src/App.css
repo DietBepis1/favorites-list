@@ -1,0 +1,57 @@
+/* Custom CSS to handle button margin on the shopping list
+as well as the transition animations for adding and removing */
+
+.nav-link {
+    color: #fff;
+}
+
+.list-text {
+    align-self: center;
+    
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.remove-btn {
+    margin-right: 0.5rem;
+    
+    align-self: center;
+}
+
+.edit-btn {
+    margin-right: 0.5rem;
+    border-color: #6610f2;
+    color: #6610f2;
+    float: right;
+    align-content: center;
+}
+
+.edit-btn:hover {
+    background: #6610f2;
+}
+
+
+.add-btn {
+    margin-bottom: 2rem;
+}
+
+.fade-enter {
+    opacity: .01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: .01;
+    transition: opacity 500ms ease-in
+}
