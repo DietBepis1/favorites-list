@@ -1,0 +1,4 @@
+#node and db settings to be ignored
+node_modules/
+client/node_modules
+config/keys.js
