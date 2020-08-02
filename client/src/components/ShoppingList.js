@@ -57,7 +57,7 @@ class ShoppingList extends Component {
 
     render() {
         return (
-            <Container>
+            <Container className="list-container">
                 <ItemModal onChange={this.onChange.bind(this)}/>
                 <ListGroup>
                     <TransitionGroup className='favorites-list'>

@@ -10,6 +10,10 @@ as well as the transition animations for adding and removing */
     
 }
 
+.list-container {
+    margin-bottom: 2rem;
+}
+
 .flexbox-container {
     display: flex;
     flex-direction: row;
